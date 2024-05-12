@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto Cordoba | Contacto</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html">
+        <img class="logo" src="img/logo.png" alt="Logo" />
+      </a>
+      <div class="title">
+        <h2>Proyecto Cordoba</h2>
+      </div>
+      <div class="links">
+        <a href="index.html" class="link">Inicio</a>
+        <a href="contacto.html" class="link">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+   
+    <h3>Formulario de Contacto</h3>
+    <div class="containerContact">
+      <section id="contact-form">
+        
+          <form action="" class="form-datos" id="miFormulario">
+          <label for="nombre">Nombre :</label>
+          <input type="text" id="nombre" name="nombre"  />
+
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" />
+
+          <label for="jubilado">¿Está jubilado?</label>
+          <input type="checkbox" id="jubilado" name="jubilado">
+
+<!-- <label for="telefo          no">Teléfono :</label> -->
+          <!-- <input type="tel" id="telefono" name="telefono" /> -->
+
+          <label for="asunto">Asunto :</label>
+          <select id="asunto" name="asunto">
+            <option value="Flora">Flora   </option>     
+                        
+            <option value="Fauna">Fauna</option>
+            <option value="Turismo" selected>Turismo</option>
+            <option value="Pesca">Pesca</option>
+            <option value="Arquitectura">Arquitectura</option>
+            <option value="Gastronomía">Gastronomía</option>
+            <option value="Festivales y Eventos">Festivales y Eventos</option>
+            <option value="Deportes">Deportes</option>
+            <option value="Arte y Cultura">Arte y Cultura</option>
+            <option value="Otro">Otro</option>            
+        </select> 
+      
+                  </br>
+        </br>
+          <label for="imagen">Nos quieres enviar una imagen ?</label>
+    <input type="file" id="imagen" name="imagen" accept="image/*">
+  </br>
+</br>
+<label for="mensaje">Cual es tu pregunta ?</label>
+    <textarea id="mensaje" name="mensaje" rows="3" cols="50"></textarea><br>
+          <button type="submit" class="button" id="resumen" value="Submit">Enviar</button>
+         
+         
+
+          <div id="result"></div>
+        </br>
+          
+          </div>
+
+
+        </form>
+
+
+
+
+      </div>
+     
+
+
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>Codo a Codo | Trabajo Práctico | Grupo 13 | 2024 &copy;</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
